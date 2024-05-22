@@ -1,0 +1,44 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: white;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #FFFFFF;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  margin: 0;
+  padding: 0;
+ }
+ header {
+  background-image: linear-gradient(to left, #FECC65, #FFFFFF);
+  color: white;
+  padding: 20px;
+ }
+ nav ul {
+  list-style-type: none;
+  padding: 0;
+ }
+ nav ul li {
+  display: inline;
+  margin-right: 10px;
+ }
+ footer {
+  background-color: white;
+  color: #D2654F;
+  text-align: center;
+  padding: 20px 0;
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.black {
+  color: black;
+}
